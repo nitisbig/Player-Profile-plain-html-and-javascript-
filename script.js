@@ -14,7 +14,12 @@ fetch("./data.json")
         let club = document.createElement('h2'); 
         let goals = document.createElement('h2');
         let stats = document.createElement('h2');
-        
+
+        let btn = document.createElement('button')
+        btn.setAttribute('class','btn')
+        btn.setAttribute('id', `btn${i}`)
+        btn.textContent = 'Buy';
+
         name.setAttribute("id", `pName${i}`);
         age.setAttribute("id", `age${i}`);
         club.setAttribute("id", `club${i}`);
@@ -35,8 +40,13 @@ fetch("./data.json")
         player.appendChild(club);
         player.appendChild(goals);
         player.appendChild(stats);
+        player.appendChild(btn)
 
         players.appendChild(player);
+
+        document.getElementById(`btn${i}`).addEventListener('click',function(){
+            alert(document.getElementById(`pName${i}`).innerText)
+        })
       }
   });
 
