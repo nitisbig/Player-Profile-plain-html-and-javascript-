@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Lionel Messi",
+        "age":"45",
+        "club":"PSG",
+        "goals":456,
+        "stats":"10/10"
+    },
+    {
+        "name":"Cristiano Ronaldo",
+        "age":"50",
+        "club":"Al Nassr",
+        "goals":500,
+        "stats":"9.5/10"
+    },
+    {
+        "name":"Neymar Jr",
+        "age":"35",
+        "club":"PSG",
+        "goals":356,
+        "stats":"9/10"
+    },
+    {
+        "name":"Mbappe",
+        "age":"25",
+        "club":"PSG",
+        "goals":386,
+        "stats":"9.2/10"
+    },
+    {
+        "name":"Vini Jr",
+        "age":"25",
+        "club":"Real Madrid",
+        "goals":128,
+        "stats":"9.1/10"
+    },
+    {
+        "name":"Halland",
+        "age":"22",
+        "club":"Manchester City",
+        "goals":228,
+        "stats":"9.5/10"
+    }
+]

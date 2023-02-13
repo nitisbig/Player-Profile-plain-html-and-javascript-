@@ -1,0 +1,21 @@
+.age{
+    color: red;
+}
+#players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#player{
+    background-color: aqua;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
+.stats{
+    color: rgb(115, 0, 215);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
